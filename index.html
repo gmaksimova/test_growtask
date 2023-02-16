@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- <meta charset="UTF-8" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo/favicon-max.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Growtask</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="header__top-inner">
+              <div class="header__logo logo">
+                <img
+                  class="header__logo-growtask"
+                  src="logo/logo.svg"
+                  alt="Logo"
+                />
+                <!-- попытка сделать анимацию смены лого на "наверх" не увенчалась успехом -->
+                <!-- <a class="header__logo-up" href="#"
+                  ><img src="icons/up-light.svg" alt=""
+                /></a> -->
+              </div>
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="#Текст и картинки"
+                      >Текст и картинки</a
+                    >
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="#Пример слайдера"
+                      >Пример слайдера</a
+                    >
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="#Кнопки и картинки"
+                      >Кнопки и картинки</a
+                    >
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="#Вопрос-ответ"
+                      >Вопрос &mdash; ответ</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__user-nav">
+                <div class="header__top-button button">
+                  <a class="header__top-link" href="#К форме">К форме</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__body">
+          <div class="container">
+            <div class="header__body-inner">
+              <div class="header__main">
+                <div class="header__content">
+                  <h1 class="header__title">
+                    Покажи нам чудеса <span>своей вёрстки</span>
+                  </h1>
+                  <p class="header__paragraph">
+                    Это текстовое задание, которое нужно просто и грамотно
+                    сверстать. Мы уверены, что у тебя всё получится.
+                  </p>
+                  <div class="header__content-scroll">
+                    <p class="header__content-text">
+                      Покажи скролл на
+                      <span><a href="#К форме">до формы:</a></span>
+                    </p>
+                    <a class="header__top-link button" href="#К форме"
+                      >К форме</a
+                    >
+                  </div>
+                </div>
+                <div class="header__img">
+                  <div class="header__img-img header__img-img--1">
+                    <img
+                      class="header__img-box"
+                      src="images/laptop.svg"
+                      alt="laptop"
+                    />
+                  </div>
+                  <div class="header__img-img header__img-img--2">
+                    <img
+                      class="header__img-box"
+                      src="images/heand.svg"
+                      alt="heands"
+                    />
+                  </div>
+                  <div class="header__img-img header__img-img--3">
+                    <img
+                      class="header__img-box"
+                      src="images/green-black.svg"
+                      alt="green-black"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <main class="main">
+          <section class="about" id="Текст и картинки">
+            <div class="container">
+              <div class="about__inner">
+                <div class="about__information">
+                  <div class="about__vacancy">
+                    <div class="about__heading">
+                      <h2 class="about__heading heading">Про вакансию</h2>
+                      <p class="about__paragraph">
+                        Мы ищем аккуратного верстальщика, который хочет учиться
+                        и развиваться. С этим мы, конечно же, поможем.<br /><br />
+                        Напомним про условия:
+                      </p>
+                    </div>
+                    <ul class="about__info">
+                      <li class="about__numbers">
+                        <span>20 000<br /></span>Твой оклад на время стажировки
+                        (Возможны премии)
+                      </li>
+                      <li class="about__numbers">
+                        <span>5/2<br /></span>Рабочий график
+                      </li>
+                      <li class="about__numbers">
+                        <span>8 ч<br /></span>Рабочий день
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="about__img-box">
+                    <img
+                      class="about__img-img"
+                      src="images/team-1.svg"
+                      alt="team-1"
+                    />
+                    <img
+                      class="about__img-img"
+                      src="images/team-2.svg"
+                      alt="team-2"
+                    />
+                    <img
+                      class="about__img-img"
+                      src="images/team-3.svg"
+                      alt="team-3"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="slider" id="Пример слайдера">
+            <div class="container">
+              <div class="slider__inner">
+                <div class="slider__heading heading">
+                  <h2 class="heading__title">Сверстай слайдер</h2>
+                  <div class="heading__arrows">
+                    <a class="heading__arrows-arr heading__arrows-prev" href="#"
+                      ><svg
+                        width="8"
+                        height="14"
+                        viewBox="0 0 8 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 1L1 7L7 13"
+                          stroke="#05051A"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                    <a class="heading__arrows-arr heading__arrows-next" href="#"
+                      ><svg
+                        width="8"
+                        height="14"
+                        viewBox="0 0 8 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 13L7 7L1 1"
+                          stroke="#05051A"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="slider__box">
+                  <div class="slider__slides">
+                    <div class="slider__slides-inner">
+                      <div class="slider__image-box">
+                        <img src="images/slide-1.svg" alt="slide-1" />
+                      </div>
+                      <div class="slider__title">Северная корона</div>
+                    </div>
+                  </div>
+                  <div class="slider__slides">
+                    <div class="slider__slides-inner">
+                      <div class="slider__image-box">
+                        <img src="images/slide-2.svg" alt="slide-2" />
+                      </div>
+                      <div class="slider__title">Moscow barbering school</div>
+                    </div>
+                  </div>
+                  <div class="slider__slides">
+                    <div class="slider__slides-inner">
+                      <div class="slider__image-box">
+                        <img src="images/slide-3.svg" alt="slide-3" />
+                      </div>
+                      <div class="slider__title">Rh store</div>
+                    </div>
+                  </div>
+                  <div class="slider__slides">
+                    <div class="slider__slides-inner">
+                      <div class="slider__image-box">
+                        <img src="images/slide-4.svg" alt="slide-4" />
+                      </div>
+                      <div class="slider__title">Poolspecial</div>
+                    </div>
+                  </div>
+                  <div class="slider__slides">
+                    <div class="slider__slides-inner">
+                      <div class="slider__image-box">
+                        <img src="images/slide-5.svg" alt="slide-5" />
+                      </div>
+                      <div class="slider__title">Rh prod</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="forest" id="Кнопки и картинки">
+            <div class="container">
+              <div class="forest__inner">
+                <div class="forest__big-img">
+                  <img id="imageBox" src="images/forest-1.svg" alt="forest-1" />
+                </div>
+                <div class="forest__mini-img">
+                  <div class="forest__mini-link">
+                    <img
+                      src="images/forest-1.svg"
+                      alt="forest-1"
+                      onclick="myFunction(this)"
+                    />Картинка 1
+                  </div>
+                  <div class="forest__mini-link">
+                    <img
+                      src="images/forest-2.svg"
+                      alt="forest-2"
+                      onclick="myFunction(this)"
+                    />Картинка 2
+                  </div>
+                  <div class="forest__mini-link">
+                    <img
+                      src="images/forest-3.svg"
+                      alt="forest-3"
+                      onclick="myFunction(this)"
+                    />Картинка 3
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="answers" id="Вопрос-ответ">
+            <div class="container">
+              <div class="answers__inner">
+                <div class="answers__heading heading">
+                  <h2 class="heading__title">Ответы на вопросы</h2>
+                </div>
+                <div class="answers__accordeon">
+                  <div class="answers__accordeon-check">
+                    <div class="answers__accordeon-box">
+                      <label for="panel1">У вас много проектов?</label>
+                      <input id="panel1" type="checkbox" />
+                      <div class="panel">
+                        <p>
+                          Достаточно, чтобы работать и получать удовольствие от
+                          работы)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="answers__accordeon-box">
+                      <label for="panel2">Есть ли карьерный рост?</label>
+                      <input id="panel2" type="checkbox" />
+                      <div class="panel">
+                        <p>
+                          Карьерный рост есть, но он зависит только от тебя.
+                          Никто специально тянуть не будет.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="answers__accordeon-box">
+                      <label for="panel3">У вас большой штат?</label>
+                      <input id="panel3" type="checkbox" />
+                      <div class="panel">
+                        <p>Штат небольшой.</p>
+                      </div>
+                    </div>
+                    <div class="answers__accordeon-box">
+                      <label for="panel4">Какие цели у вашей студии?</label>
+                      <input id="panel4" type="checkbox" />
+                      <div class="panel">
+                        <p>
+                          Развивать свои продукты в среднем ценовом сегменте.
+                          Занять не занятую нишу отличных сайтов по адекватной
+                          цене.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__inner">
+              <div class="footer__heading">
+                <div class="footer__content">
+                  <div class="footer__heading-box">
+                    <h1 class="footer__heading-title">Форма ОС</h1>
+                    <p class="footer__heading-paragraph">
+                      Сверстай форму обратной связи. Будет круто, если заявку
+                      будут приходить сюда: a@growtask.ru
+                    </p>
+                  </div>
+                  <div class="footer__heading-social">
+                    <div class="footer__heading-text">
+                      <h2 class="footer__heading-link">
+                        Не забудь вставить соц.сети
+                      </h2>
+                    </div>
+                    <div class="footer__icon">
+                      <a
+                        class="footer__icon-link footer__icon-link--vk"
+                        href="https://vk.com/growtask"
+                        target="_blank"
+                      >
+                        <svg
+                          width="28"
+                          height="18"
+                          viewBox="0 0 28 18"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.1798 17.3996C6.15993 17.3996 1.01515 11.0933 0.800781 0.599609H5.31896C5.46736 8.30171 8.79828 11.5642 11.4366 12.2368V0.599609H15.691V7.24225C18.2963 6.95637 21.0336 3.92934 21.9571 0.599609H26.2114C25.8634 2.3265 25.1698 3.96159 24.1739 5.40261C23.178 6.84363 21.9013 8.05957 20.4235 8.97438C22.073 9.81028 23.53 10.9934 24.6982 12.4457C25.8664 13.898 26.7194 15.5864 27.2008 17.3996H22.5177C22.0856 15.8247 21.2073 14.415 19.9928 13.347C18.7784 12.279 17.282 11.6003 15.691 11.396V17.3996H15.1798Z"
+                            fill="#0077FF"
+                          />
+                        </svg>
+                      </a>
+                      <a
+                        class="footer__icon-link footer__icon-link--telegram"
+                        href="https://t.me/growtask"
+                        target="_blank"
+                      >
+                        <svg
+                          width="24"
+                          height="21"
+                          viewBox="0 0 24 21"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M23.6008 1.12306L19.9943 19.9511C19.9943 19.9511 19.4897 21.2565 18.1035 20.6305L9.78227 14.0235L9.74368 14.004C10.8677 12.9589 19.5837 4.84359 19.9646 4.47574C20.5543 3.90603 20.1882 3.56687 19.5035 3.99722L6.62893 12.464L1.66195 10.7333C1.66195 10.7333 0.88029 10.4454 0.805093 9.81932C0.728906 9.19223 1.68767 8.85307 1.68767 8.85307L21.9365 0.627128C21.9365 0.627128 23.6008 -0.130093 23.6008 1.12306Z"
+                            fill="#27A6E5"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <form class="footer__form" id="К форме">
+                  <div class="footer__form-row">
+                    <label class="footer__form-label">
+                      <input
+                        class="footer__form-input"
+                        type="text"
+                        placeholder="Напиши вопрос*"
+                        required
+                      />
+                    </label>
+                    <label class="footer__form-label">
+                      <input
+                        class="footer__form-input"
+                        type="text"
+                        placeholder="Телефон или почта*"
+                        required
+                      />
+                    </label>
+                  </div>
+                  <div class="footer__form-row">
+                    <label class="footer__form-label">
+                      <input
+                        class="footer__form-input"
+                        type="text"
+                        placeholder="Твое имя*"
+                        required
+                      />
+                    </label>
+                    <label class="footer__form-label">
+                      <input
+                        class="footer__form-input"
+                        type="text"
+                        placeholder="Соц.сеть или мессенджер"
+                      />
+                    </label>
+                  </div>
+                  <div class="footer__form-row">
+                    <button class="footer__form-button button">
+                      Отправить заявку
+                    </button>
+                    <input
+                      class="footer__form-click"
+                      type="checkbox"
+                      id="check"
+                    />
+                    <label for="check" class="footer__checkbox-label"
+                      >Согласие с политикой</label
+                    >
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </header>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script
+    type="text/javascript"
+    src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="js/main.js"></script>
+</html>
